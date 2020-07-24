@@ -102,9 +102,9 @@ function Menu() {
         if ($.exists('.swiper-container')) {
             var swiper = new Swiper('.swiper-container', {
             loop: false,
-            autoplay: {
-                delay: 3000,
-            },
+            //autoplay: {
+            //    delay: 3000,
+            //},
             speed: 1000,
             grabCursor: false,
             mousewheel: true,
