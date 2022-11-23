@@ -6,18 +6,110 @@
     <!-- Metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://madsparrow.me/emily/assets/images/ico/favicon.png" />
-    <!-- CSS Plugins -->
-    <link rel="stylesheet" href="https://madsparrow.me/emily/assets/css/plugins.min.css">
-    <!-- Custom CSS File -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
   </head>
   <body>
     
-    <script>
-//       window.location.href = "https://pinguinkode.com";
-      alert('hello');
-    </script>
+    <main class="m-auto max-w-4xl md:p-8 p-6">
+  <section>
+    <h1 class="mb-6 dark:text-white text-4xl">Projects</h1>
+    <p class="mb-5 dark:text-zinc-300">
+      Here is a list of open source projects that I own and contribute to. This
+      list get updated every build and deploy!
+    </p>
+    <section>
+      <ul class="mb-5 gap-5 grid sm:grid-cols-2">
+        <li
+          class="transition-colors motion-reduce:transition-none text-black bg-white dark:bg-nord-900 dark:text-zinc-400 flex flex-col gap-2 my-2 p-6 rounded-xl shadow-xl text-lg"
+        >
+          <header class="flex items-center justify-between">
+            <h2 class="text-xl dark:text-white font-medium">og-edge-netlify</h2>
+            <a
+              href="https://github.com/lancerossdev/og-edge-netlify"
+              aria-label="github button"
+              rel="noopener nofollow noreferrer"
+              target="_blank"
+              ><svg
+                astro-icon="eva:github-outline"
+                class="transition-colors motion-reduce:transition-none dark:hover:text-slate-400 hover:text-slate-500 text-black dark:text-white w-6"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.24 22a1 1 0 0 1-1-1v-2.6a2.15 2.15 0 0 0-.54-1.66 1 1 0 0 1 .61-1.67C17.75 14.78 20 14 20 9.77a4 4 0 0 0-.67-2.22 2.75 2.75 0 0 1-.41-2.06 3.71 3.71 0 0 0 0-1.41 7.65 7.65 0 0 0-2.09 1.09 1 1 0 0 1-.84.15 10.15 10.15 0 0 0-5.52 0 1 1 0 0 1-.84-.15 7.4 7.4 0 0 0-2.11-1.09 3.52 3.52 0 0 0 0 1.41 2.84 2.84 0 0 1-.43 2.08 4.07 4.07 0 0 0-.67 2.23c0 3.89 1.88 4.93 4.7 5.29a1 1 0 0 1 .82.66 1 1 0 0 1-.21 1 2.06 2.06 0 0 0-.55 1.56V21a1 1 0 0 1-2 0v-.57a6 6 0 0 1-5.27-2.09 3.9 3.9 0 0 0-1.16-.88 1 1 0 1 1 .5-1.94 4.93 4.93 0 0 1 2 1.36c1 1 2 1.88 3.9 1.52a3.89 3.89 0 0 1 .23-1.58c-2.06-.52-5-2-5-7a6 6 0 0 1 1-3.33.85.85 0 0 0 .13-.62 5.69 5.69 0 0 1 .33-3.21 1 1 0 0 1 .63-.57c.34-.1 1.56-.3 3.87 1.2a12.16 12.16 0 0 1 5.69 0c2.31-1.5 3.53-1.31 3.86-1.2a1 1 0 0 1 .63.57 5.71 5.71 0 0 1 .33 3.22.75.75 0 0 0 .11.57 6 6 0 0 1 1 3.34c0 5.07-2.92 6.54-5 7a4.28 4.28 0 0 1 .22 1.67V21a1 1 0 0 1-.94 1z"
+                  fill="currentColor"
+                ></path></svg
+            ></a>
+          </header>
+          <ul class="flex gap-2 text-black dark:text-white flex-wrap">
+            <li
+              class="transition-colors motion-reduce:transition-none bg-zinc-200 dark:bg-nord-700 px-2 py-0.5 rounded-md text-sm"
+            >
+              TypeScript
+            </li>
+            <li
+              class="transition-colors motion-reduce:transition-none bg-zinc-200 dark:bg-nord-700 px-2 py-0.5 rounded-md text-sm"
+            >
+              React
+            </li>
+            <li
+              class="transition-colors motion-reduce:transition-none bg-zinc-200 dark:bg-nord-700 px-2 py-0.5 rounded-md text-sm"
+            >
+              Netlify
+            </li>
+          </ul>
+          <p>An OG Image Generator running on Netlify Edge Functions.</p>
+        </li>
+        <li
+          class="transition-colors motion-reduce:transition-none text-black bg-white dark:bg-nord-900 dark:text-zinc-400 flex flex-col gap-2 my-2 p-6 rounded-xl shadow-xl text-lg"
+        >
+          <header class="flex items-center justify-between">
+            <h2 class="text-xl dark:text-white font-medium">
+              astro-basic-blog
+            </h2>
+            <a
+              href="https://github.com/lancerossdev/astro-basic-blog"
+              aria-label="github button"
+              rel="noopener nofollow noreferrer"
+              target="_blank"
+              ><svg
+                astro-icon="eva:github-outline"
+                class="transition-colors motion-reduce:transition-none dark:hover:text-slate-400 hover:text-slate-500 text-black dark:text-white w-6"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.24 22a1 1 0 0 1-1-1v-2.6a2.15 2.15 0 0 0-.54-1.66 1 1 0 0 1 .61-1.67C17.75 14.78 20 14 20 9.77a4 4 0 0 0-.67-2.22 2.75 2.75 0 0 1-.41-2.06 3.71 3.71 0 0 0 0-1.41 7.65 7.65 0 0 0-2.09 1.09 1 1 0 0 1-.84.15 10.15 10.15 0 0 0-5.52 0 1 1 0 0 1-.84-.15 7.4 7.4 0 0 0-2.11-1.09 3.52 3.52 0 0 0 0 1.41 2.84 2.84 0 0 1-.43 2.08 4.07 4.07 0 0 0-.67 2.23c0 3.89 1.88 4.93 4.7 5.29a1 1 0 0 1 .82.66 1 1 0 0 1-.21 1 2.06 2.06 0 0 0-.55 1.56V21a1 1 0 0 1-2 0v-.57a6 6 0 0 1-5.27-2.09 3.9 3.9 0 0 0-1.16-.88 1 1 0 1 1 .5-1.94 4.93 4.93 0 0 1 2 1.36c1 1 2 1.88 3.9 1.52a3.89 3.89 0 0 1 .23-1.58c-2.06-.52-5-2-5-7a6 6 0 0 1 1-3.33.85.85 0 0 0 .13-.62 5.69 5.69 0 0 1 .33-3.21 1 1 0 0 1 .63-.57c.34-.1 1.56-.3 3.87 1.2a12.16 12.16 0 0 1 5.69 0c2.31-1.5 3.53-1.31 3.86-1.2a1 1 0 0 1 .63.57 5.71 5.71 0 0 1 .33 3.22.75.75 0 0 0 .11.57 6 6 0 0 1 1 3.34c0 5.07-2.92 6.54-5 7a4.28 4.28 0 0 1 .22 1.67V21a1 1 0 0 1-.94 1z"
+                  fill="currentColor"
+                ></path></svg
+            ></a>
+          </header>
+          <ul class="flex gap-2 text-black dark:text-white flex-wrap">
+            <li
+              class="transition-colors motion-reduce:transition-none bg-zinc-200 dark:bg-nord-700 px-2 py-0.5 rounded-md text-sm"
+            >
+              Astro
+            </li>
+            <li
+              class="transition-colors motion-reduce:transition-none bg-zinc-200 dark:bg-nord-700 px-2 py-0.5 rounded-md text-sm"
+            >
+              Tailwind CSS
+            </li>
+            <li
+              class="transition-colors motion-reduce:transition-none bg-zinc-200 dark:bg-nord-700 px-2 py-0.5 rounded-md text-sm"
+            >
+              MDX
+            </li>
+          </ul>
+          <p>A fully-responsive basic blog theme made with Astro.</p>
+        </li>
+      </ul>
+    </section>
+  </section>
+</main>
+
+    
+   
   </body>
 </html>
